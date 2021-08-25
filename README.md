@@ -9,26 +9,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## install
 
 ```
-npm install
+npm install or yarn install
 ```
 
-```
-yarn install
-```
 
 ## start
 
 ```
-npm start
+npm start or yarn start
 ```
 
-```
-yarn start
-```
 
-React 와 storybook 함께 실행하기 위해 custom package.json scripts
+React 와 storybook 함께 실행하기 위해 package.json 수정
 
-[npm-run-all] package install 후 scripts 수정
+[npm-run-all] package를 설치, 여러개 실행하기 위해 scripts 수정
 
 ```json
   "scripts": {
@@ -45,7 +39,7 @@ React 와 storybook 함께 실행하기 위해 custom package.json scripts
 react-script 의 babel-loader는 8.1.0 이고, storyBook 의 babel-loader 버전은 8.2.0.
 최종 설치 버전은 8.2.0 으로 react-script 의 의존성 버전과 달라 충돌 에러 발생~
 
-% 해결 방안은 package.json 파일에 아래와 같이 추가 한 후 node_module 삭제 후 재설치
+% 이슈 해결은  package.json 파일에 아래와 같이 추가 후 node_module 삭제, 재설치로 이슈 해결
 
 ```json
   "resolutions": {
