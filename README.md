@@ -52,14 +52,14 @@ react-script 의 babel-loader는 8.1.0 이고, storyBook 의 babel-loader 버전
 ## Folder Structure Conventions
 
     .
-    ├── .storybook           # storybook settings folder
+    ├── .storybook           # storybook UI settings folder
     ├── public               # build public
     ├── src
     │   ├── assets           # resources
     │   ├── components       # common components
     │   │   ├── layout
     │   │   └── etc
-    │   ├── guide            # common element guide
+    │   ├── guide            # element guide
     │   ├── pages            # markup pages ( page ID )
     │   └── storise          # storise page preview settings
     └──.
