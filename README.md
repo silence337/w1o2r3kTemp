@@ -1,7 +1,10 @@
-# clone or download zip 
+# React Markup example & storybook
+```
+clone or download zip 
+```
 Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-clone or download zip 
+
 
 ## install
 
