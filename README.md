@@ -66,6 +66,7 @@ react-script 의 babel-loader는 8.1.0 이고, storyBook 의 babel-loader 버전
 
 ### stroybook 구성의 React Markup 을 만든 의도는..
 
+> storybook 은 보통 사내에서 (작성중..)
 React 프로젝트가 중상 규모의 스펙 일 경우, 프론트엔드 시장에 부족한 인력( 마크업, SCSS, API 등 해당 업무를 전체 원활히 수행할 수 있는 인력? ) 으로 인해 
 분업화를 생각해보았고, 일반 프로젝트에서 html 코딩리스트 라는 제작물을 보여주는 순수 html 만 제작 한다면 
 React 환경 프로젝트에서는 순수 JSX 마크업을 storybook 으로 제공하면 어떨까 하는 생각에...
